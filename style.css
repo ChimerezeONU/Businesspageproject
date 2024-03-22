@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #4c4848;
+}
+
+nav{
+    margin: 0 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.logo{
+    display: flex;
+    flex: 1;
+}
+
+.logo img{
+    width: 3em;
+    border-radius: 50%;
+    height: 3em;
+}
+
+.nav-items{
+    display: flex;
+    justify-content:flex-end ;
+    list-style: none;
+    font-size: 1em;
+    flex: 2;
+    color: #fff;
+    gap: 1.8em;
+}
+
+.btn{
+    text-align: center;
+    flex: 0.5;
+}
+
+.btn > a{
+    text-decoration: none;
+    color:#fff ;
+    border: 2px solid #fff;
+    padding: 5px 30px;
+    font-size: 1em;
+}
+
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 3em;
+    height: 60vh;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    
+}
+
+.image img{
+    width: 34em;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.content > h1{
+    font-size: 3.4em;
+    color: #fff;
+}
+
+.content > p{
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.mail{
+    display: flex;
+    background-color:#fff ;
+    align-items: center;
+    width: fit-content;
+    padding: 10px 10px;
+
+}
+
+.mail > p > i{
+    color: #000;
+    
+}
+.mail  input{
+    border: none;
+    margin: 0 10px;
+}
+
+.mail button{
+    background-color: rgb(74, 178, 148);
+    border: none;
+    color: white;
+    padding: 10px 30px ;
+}
+
+
+.heading{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.stats{
+display: flex;
+justify-content: center;
+gap: 6.2em;
+margin-bottom: 60px;
+}
+
+.stat{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.para1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "poppins";
+}
+
+.para2{
+    font-size: 25px;
+}
+
+
+
+
+  .vid {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+
+  }
+
+  .vid img{
+    width: 85%;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+
+  }
+
+  .button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    padding: 12px 16px;
+    border-radius: 50%;
+  }
+
+  .post-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+
+  }
+  
+  .post-1 img {
+    width: 600px; /* Adjust the width as needed */
+    height: 26em; 
+  }
+  
+  .post1-content {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .post1-content h2 {
+    font-size: 45px; /* Adjust the font size as needed */
+    font-family: "Raleway";
+  }
+  
+  .post1-content p {
+    font-size: 1.2em;
+    margin-bottom: 5em;
+    font-family: "Poppins";
+  }
+  
+  .post1-content .read-more-1 {
+    display: flex;
+    margin-top: 10px;
+    width: fit-content;
+    background-color: rgb(74, 178, 148);
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+
+  .offer-title{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+
+  .post-11 {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+
+  }
+  
+  .post-11 img {
+    width: 600px; /* Adjust the width as needed */
+    height: 26em;
+    order: 1; 
+  }
+  
+  .post11-content {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .post11-content h2 {
+    font-size: 45px; /* Adjust the font size as needed */
+    font-family: "Raleway";
+  }
+  
+  .post11-content p {
+    font-size: 1.2em;
+    margin-bottom: 5em;
+    font-family: "Poppins";
+  }
+  
+  .post11-content .read-more-11 {
+    display: flex;
+    margin-top: 10px;
+    width: fit-content;
+    background-color: rgb(74, 178, 148);
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+
+  footer {
+    background-color: rgb(40, 36, 51);
+    padding: 50px 100px;
+  }
+    .footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.8em;
+    border-bottom: 2px solid rgb(22, 22, 47);
+}
+
+.listing-container {
+    list-style-type: none;
+    color:white ;
+
+}
+
+.listing-container li:first-child{
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+
+.listing-container li{
+    padding: 7px 0;
+    font-size: 14px;
+}
+
+.socials{
+    display: flex;
+    gap: 15px;
+}
+
+.socials > p{
+background-color: #000000;
+height: fit-content;
+padding: 15px;
+border-radius:50% ;
+
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.8em;
+}
+
+.socials p i{
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.listing {
+    width: 25%;
+    padding: 0.5em;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.thing{
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .member img {
+    width: 400px;
+    height: 300px;
+    gap: 400px;
+  }
+  
+
+  .row h1{
+    width: 400px;
+    font-size: 40px;
+    font-family: "Raleway";
+    margin-right: 500px;
+  }
+
+  .row p{
+    font-size: 20px;
+    width: 400px;
+  }
+
+  .team-members{
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .team-members h1{
+   font-size: 30px;
+    margin: 20px 0;
+  }
+
+  .team-members p{
+  margin: 20px;
+  }
+
+  .link {
+    text-align: center;
+
+    margin-bottom: 50px;
+    
+    
+  }
+
+   .link .read-more-11{
+    background-color: rgb(74, 178, 148);
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+   }
